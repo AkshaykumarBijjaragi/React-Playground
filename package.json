@@ -1,0 +1,33 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "This is react playground",
+  "scripts": {
+    "start": "parcel index.html",
+    "commit-and-push": "git add . && git commit -m \"Committing changes\" && git push origin main",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshaykumarBijjaragi/React-Playground.git"
+  },
+  "keywords": [],
+  "author": "Akshaykuamr B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshaykumarBijjaragi/React-Playground/issues"
+  },
+  "homepage": "https://github.com/AkshaykumarBijjaragi/React-Playground#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 10 versions"
+  ]
+}
