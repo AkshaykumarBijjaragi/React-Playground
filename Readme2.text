@@ -1,0 +1,42 @@
+# JSX is javascript xml which was created by facebook developers to ease the syntax of writing react elements
+even though it seems similar to html it is not html, it is much powerful and flexible in the following ways
+---> it allows javascript expression inside jsx
+---> it gives security against cross site scripting attacks
+
+
+# babel transpiles the jsx to javascript code then it is sent to browsers 
+ ----> jsx ---> react element ---> js object ---> html element
+babel also helps in converting ES6 module code to normal javascript code for older browsers 
+
+# Parcel sets up babel for react projects
+
+
+# Rules of JSX
+ClassName is used instead of class, since class is reserved keyword in JS
+All attributes are written in camelCase
+we cannot write anything except JS expressions
+ ----> if else conditions
+ ----> loops and functions
+ ----> function calls, since they will be invoked immediately
+multiple lines of JSX should be wrapped under one parent element or react fragment
+
+
+# Components are reusable building block of UI that can create complex UI structures, 
+can be written with function also with class
+
+
+# functional component is Js function which returns some piece of JSX
+using arrow functions is newest way of wriring functional components
+
+# components composition:-- adding one component inside another is component composition ex: button component inside card component
+
+
+
+
+
+
+
+
+
+
+

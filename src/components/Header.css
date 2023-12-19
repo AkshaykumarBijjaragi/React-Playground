@@ -1,0 +1,75 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0f14;
+    padding: 10px;
+    color: #fff;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.logo-container,
+.user-icon-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.search-bar-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center the input and button */
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 35%;
+    /* Adjusted to 35% width */
+}
+
+button {
+    background: #e6b5b5;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 5px;
+}
+
+.search-icon {
+    width: 20px;
+}
+
+/* Header.css */
+
+
+.user-icon {
+    max-width: 30px;
+    max-height: 30px;
+    /* Add a softer glowing effect using CSS animation */
+    animation: glow 0.25s ease-in-out infinite alternate;
+}
+
+/* Define the softer glow animation */
+@keyframes glow {
+    from {
+        opacity: 0.9;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
